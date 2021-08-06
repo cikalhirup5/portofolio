@@ -1,3 +1,56 @@
 HTML (Hypertext Markup Language)
 
 Tag HTML 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <div class="table">
+    <table border="0" cellspacing="0" cellpadding="3">
+        <tr>
+            <td><label for="username"> username : </label></td>
+            <td><input type="text" id="username"></td>
+        </tr>
+        <tr>
+            <td><label for="password">password : </label></td>
+            <td><input type="password" id="password"></td>
+        </tr>
+        <tr>
+            <td colspan="2"><center>
+                <label for="pria">pria</label><input type="radio" id="pria" name="jeniskelamin">
+                <label for="wanita">wanita</label><input type="radio" id="wanita" name="jeniskelamin"></center></td>
+            
+        </tr>
+        <tr>
+            <td colspan="2"><center>
+                <label for="olahraga">check box 1</label><input type="checkbox" id="olahraga">
+                <label for="ngoding">check box 2</label><input type="checkbox" id="ngoding"></center></td>
+        </tr>
+        <tr>
+            <td>combo box :</td>
+            <td><select>
+                <option value="">option 1</option>
+                <option value="">option 2</option>
+                <option value="">option 3</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td>textarea :</td>
+            <td><textarea name="" id="" cols="0" rows="0"></textarea></td>
+        </tr>
+        <tr>
+            <td colspan="2"><center><button type="submit">kirim!</button></center></td>
+        </tr>
+        
+    </table>
+    </div>
+</div>
+</body>
+</html>
